@@ -1,0 +1,12 @@
++-------------------------------+        +-------------------------+
+|    Bank                       |        |   Customer              |
++-------------------------------+        +-------------------------+
+| - name: String                |        | - name: String          |
+| - customers:                  |        | - transactions:         |
+| - ArrayList<Customer>         |        | - ArrayList<Double>     |
++-------------------------------+        +-------------------------+
+| + addCustomer(name)           |        | + addTransaction(amount)|
+| + addTransaction(name,amount) |        | + getTransactions()     |
+| + printStatement(name)        |        | + getName()             |
+| + listCustomers()             |        +-------------------------+
++-------------------------------+
